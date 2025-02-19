@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calculator">
+        <input id="display" placeholder="U look lonely!" readonly>
+    <div id="keys">
+        <button onclick="updatecharToDisplay('+')" class="operator-btn">
+            <span> </span>
+            <span> </span>
+            <span> </span>
+            <span> </span>
+            +</button>
+        <button onclick="updatecharToDisplay('7')">
+            <span> </span>
+            <span> </span>
+            <span> </span>
+            <span> </span>7</button>
+        <button onclick="updatecharToDisplay('8')">
+            <span> </span>
+            <span> </span>
+            <span> </span>
+            <span> </span>8</button>
+        <button onclick="updatecharToDisplay('9')">
+            <span> </span>
+            <span> </span>
+            <span> </span>
+            <span> </span>9</button>
+        <button onclick="updatecharToDisplay('-')" class="operator-btn">
+            <span> </span>
+            <span> </span>
+            <span> </span>
+            <span> </span>-</button>
+        <button onclick="updatecharToDisplay('4')">
+            <span> </span>
+            <span> </span>
+            <span> </span>
+            <span> </span>4</button>
+        <button onclick="updatecharToDisplay('5')">
+            <span> </span>
+            <span> </span>
+            <span> </span>
+            <span> </span>5</button>
+        <button onclick="updatecharToDisplay('6')">
+            <span> </span>
+            <span> </span>
+            <span> </span>
+            <span> </span>6</button>
+        <button onclick="updatecharToDisplay('*')"class="operator-btn" >
+            <span> </span>
+            <span> </span>
+            <span> </span>
+            <span> </span>*</button>
+        <button onclick="updatecharToDisplay('1')">
+            <span> </span>
+            <span> </span>
+            <span> </span>
+            <span> </span>1</button>
+        <button onclick="updatecharToDisplay('2')">
+            <span> </span>
+            <span> </span>
+            <span> </span>
+            <span> </span>2</button>
+        <button onclick="updatecharToDisplay('3')">
+            <span> </span>
+            <span> </span>
+            <span> </span>
+            <span> </span>3</button>
+        <button onclick="updatecharToDisplay('/')" class="operator-btn">
+            <span> </span>
+            <span> </span>
+            <span> </span>
+            <span> </span>/</button>
+        <button onclick="updatecharToDisplay('.')">
+            <span> </span>
+            <span> </span>
+            <span> </span>
+            <span> </span>.</button>
+            <button onclick="updatecharToDisplay('0')">
+                <span> </span>
+                <span> </span>
+                <span> </span>
+                <span> </span>0</button>
+            <button onclick="Calculate()"class="operator-btn">
+            <span> </span>
+            <span> </span>
+            <span> </span>
+            <span> </span>=</button>
+        <button onclick="clearDisplay()"class="operator-btn">
+            <span> </span>
+            <span> </span>
+            <span> </span>
+            <span> </span>C</button>
+        <button id="Compute" onclick="DeletelastentryonDisplay()" class="operator-btn">
+            <span> </span>
+            <span> </span>
+            <span> </span>
+            <span> </span>CLE</button>
+
+    </div>
+    </div>
+    
+</body>
+<script src="index.js"></script>
+</html>
